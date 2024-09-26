@@ -1,0 +1,37 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>frsf.isi.died</groupId>
+  <artifactId>ejemplo-maven01</artifactId>
+  <version>1.0.0-SNAPSHOT</version>
+  <name>ejemplo maven</name>
+  <description>ejemplo maven</description>
+  <properties>
+	  <maven.compiler.target>17</maven.compiler.target>
+	  <maven.compiler.source>17</maven.compiler.source>
+  </properties>
+    <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-math3 -->
+  <dependencies>
+		  <dependency>
+	    <groupId>org.apache.commons</groupId>
+	    <artifactId>commons-math3</artifactId>
+	    <version>3.2</version>
+		</dependency>
+	
+	<!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+<dependency>
+    <groupId>mysql</groupId>
+    <artifactId>mysql-connector-java</artifactId>
+    <version>8.0.33</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.mockito/mockito-junit-jupiter -->
+<dependency>
+    <groupId>org.mockito</groupId>
+    <artifactId>mockito-junit-jupiter</artifactId>
+    <version>5.4.0</version>
+    <scope>test</scope>
+</dependency>
+
+  </dependencies>
+ 
+</project>
